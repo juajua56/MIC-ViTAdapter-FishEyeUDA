@@ -1,14 +1,22 @@
 # Samsung AI Challenge 
 
-## Architecture Overview
+## Results
+Private 13/212 (6.1%)
+
+## Challenge Overview 
+
+## Our Approach
 ![architecture](./architecture.png)
+
 
 ## Prerequist
 To be relased
 
 # Dataset
-사용된 학습 데이터는 [2023 Samsung AI Challenge : Camera-Invariant Domain Adaptation
-](https://dacon.io/competitions/official/236132/overview/description)에서 로그인 후 다운로드할 수 있음
+<!-- 사용된 학습 데이터는 [2023 Samsung AI Challenge : Camera-Invariant Domain Adaptation
+](https://dacon.io/competitions/official/236132/overview/description)에서 로그인 후 다운로드할 수 있음 -->
+You can download the dataset in [2023 Samsung AI Challenge : Camera-Invariant Domain Adaptation
+](https://dacon.io/competitions/official/236132/overview/description) 
 
 ## File Structure
 To be relased
@@ -22,8 +30,7 @@ Background label의 의미가 source domain(주행하는 차체), target domain(
 * 미처 잘 구분하지 못한 Background를 cv2.MORPH_ELLIPSE 모듈을 이용해 타원형으로 땀 (2% 성능 향상)
 
 
-## Results
-Private 13/212 (6.1%)
+
 
 ## References 
 [Vit-Adapter](https://github.com/czczup/ViT-Adapter)  
